@@ -200,7 +200,7 @@ Customized Products Section's styles
 }
 
 .customized-products-div {
-  width: 50%;
+  flex-basis: 100%;
 }
 
 .customized-products-div h1 {
@@ -290,7 +290,10 @@ Tablet View
   */
   .customized-products-div p {
     padding-right: 2%;
-  }  
+  }
+  .customized-products-div img {
+    margin: auto 12.5%;
+  }
 
 }
 
